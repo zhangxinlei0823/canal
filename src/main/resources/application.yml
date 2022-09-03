@@ -1,0 +1,8 @@
+# 邮箱发送配置(163邮箱举例)
+spring:
+  mail:
+    host: smtp.163.com
+    username: 17600905781@163.com
+    password: XXXXXXXXXX #开启POP3之后设置的客户端授权码
+    protocol: smtp
+    default-encoding: UTF-8
